@@ -1,4 +1,4 @@
-# 🛡️ UnfitChecker
+# UnfitChecker
 ![inv_dogprimalbaby_red](https://github.com/Kkthnx-Wow/UnfitChecker/assets/40672673/defbac9c-1633-4814-b85c-757ce7b5367d)
 
 ## Overview
