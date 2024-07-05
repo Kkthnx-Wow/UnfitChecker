@@ -1,4 +1,5 @@
 # 🛡️ UnfitChecker
+![inv_dogprimalbaby_red](https://github.com/Kkthnx-Wow/UnfitChecker/assets/40672673/defbac9c-1633-4814-b85c-757ce7b5367d)
 
 ## Overview
 UnfitChecker is a World of Warcraft addon designed to enhance inventory management by highlighting unusable items in bags and bank with a visual indicator. 🎒 It ensures efficient item handling by providing quick visibility into items that cannot be used based on player level and other criteria.
