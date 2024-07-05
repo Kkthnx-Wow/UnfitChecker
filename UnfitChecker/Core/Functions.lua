@@ -1,5 +1,17 @@
 local _, Core = ...
 
+-- Helper function to create or initialize button.usableTexture
+function Core:GetUnfitTexture(button)
+	if not button.UnfitTexture then
+		button.UnfitTexture = button:CreateTexture(nil, "ARTWORK")
+		button.UnfitTexture:SetTexture(Core.White8x8TexturePath)
+		button.UnfitTexture:SetAllPoints(button)
+		button.UnfitTexture:SetVertexColor(1, 0, 0)
+		button.UnfitTexture:SetBlendMode("MOD")
+		button.UnfitTexture:SetShown(false) -- Initialize as hidden
+	end
+end
+
 -- Game version API
 local _, _, _, interfaceVersion = GetBuildInfo()
 
