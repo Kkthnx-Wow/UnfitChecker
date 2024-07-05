@@ -24,5 +24,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+![image](https://github.com/Kkthnx-Wow/UnfitChecker/assets/40672673/f3a1ffea-1f36-4693-b557-8b8202db92d0)
 ![image](https://github.com/Kkthnx-Wow/UnfitChecker/assets/40672673/beec3b90-ccc5-4c8a-be5e-274a6a3a6162)
 
