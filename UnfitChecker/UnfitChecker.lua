@@ -3,7 +3,7 @@ local _, UnfitChecker = ...
 -- Local references for optimization
 local select = select
 local C_Container_GetContainerItemInfo = C_Container.GetContainerItemInfo
-local GetItemInfo = C_Item.GetItemInfo or GetItemInfo
+local GetItemInfo = C_Item and C_Item.GetItemInfo or GetItemInfo
 
 -- Helper function to create or initialize button.usableTexture
 local function InitializeUsableTexture(button)
