@@ -20,3 +20,4 @@ Core\Functions.lua
 Modules\Bags.lua
 Modules\Bank.lua
 Modules\GuildBank.lua
+Modules\Loot.lua

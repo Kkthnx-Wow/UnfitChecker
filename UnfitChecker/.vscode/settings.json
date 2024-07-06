@@ -1,5 +1,15 @@
 {
     "Lua.diagnostics.globals": [
-        "LootFrame"
+        "LootFrame",
+        "DURABILITY_TEMPLATE",
+        "ITEM_MIN_LEVEL",
+        "ITEM_MIN_SKILL",
+        "LEVEL_GAINED",
+        "SELL_PRICE",
+        "UNIT_TYPE_LETHAL_LEVEL_TEMPLATE",
+        "UNIT_TYPE_LEVEL_FACTION_TEMPLATE",
+        "UNIT_TYPE_LEVEL_TEMPLATE",
+        "UNIT_TYPE_PLUS_LEVEL_TEMPLATE",
+        "TooltipDataProcessor"
     ]
 }

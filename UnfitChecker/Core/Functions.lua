@@ -1,5 +1,21 @@
 local _, Core = ...
 
+-- Convert a WoW global string to a search pattern
+local makePattern = function(msg)
+	msg = string.gsub(msg, "%%([%d%$]-)d", "(%%d+)")
+	msg = string.gsub(msg, "%%([%d%$]-)s", "(.+)")
+	return msg
+end
+
+-- Search Pattern Cache.
+-- This will generate the pattern on the first lookup.
+Core.Pattern = setmetatable({}, {
+	__index = function(t, k)
+		rawset(t, k, makePattern(k))
+		return rawget(t, k)
+	end,
+})
+
 -- Helper function to create or initialize button.usableTexture
 function Core:GetUnfitTexture(button)
 	if not button.UnfitTexture then
